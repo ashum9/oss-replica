@@ -1,0 +1,267 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    
+   
+
+}
+.box{
+    display:grid;
+    grid-template-columns: 3fr 7fr;
+   
+}
+
+
+
+
+.extreme{
+    background-color:rgb(245, 245, 245);
+    height:100%;
+
+}
+.insta{
+    margin-left:30px;
+    margin-top:40px;
+}
+.head{
+    display:inline;
+    margin-top:30px;
+}
+.pfp{
+   display:flex;
+   justify-content:center;
+   margin-top:25px;
+    
+    
+}
+.left-pfp{
+    height:120px;
+}
+.name{
+   display:flex;
+   justify-content:center;
+   font-size: x-large;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight:500;
+   margin-top:15px;
+  
+   margin-bottom:-4px;
+}
+.id{
+    display:flex;
+    justify-content:center;
+    color:rgb(131, 129, 129);
+    margin-bottom:30px;
+}
+.stats{
+    display:flex;
+    justify-content:space-evenly;
+    font-size:large;
+    margin-top:20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+.number{
+    display:flex;
+    justify-content: space-evenly;
+    font-size:large;
+    margin-left:21px;
+    font-family:Arial, Helvetica, sans-serif    ;
+    font-size:14px;
+    color:rgb(131, 129, 129);
+}
+.leftmenu{
+    margin-left:40px;
+    display:flex;
+    justify-content:space-between;
+    column-gap:40px;
+    font-weight:500;
+    font-size:12px;
+}
+.leftmenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.leftmenu ul li {
+    margin-bottom: 40px;
+}
+
+
+.leftmenu ul li a {
+    text-decoration: none;
+   
+    
+    color: rgb(0, 0, 0);
+    align-items: center;
+    font-size: 18px;
+    display: flex;
+    transition: background-color 0.3s;
+}
+
+.leftmenu ul li a.icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+#db{
+    margin-top:10px;
+}
+
+.current,
+.icon{
+    margin-bottom:-8px;
+    padding-right:50px;
+    margin-top:40x;
+
+
+}
+
+.leftmenu ul li a.current,
+.leftmenu ul li a:hover {
+
+    color:rgb(223, 82, 31)
+}
+.aaa{
+    width:85%;
+
+    
+}
+.aaa1{
+    width:85%;
+    
+}
+
+.ext{
+    margin-left:25px;
+    margin-top:30px;
+}
+
+
+.search{
+    display:inline-block;
+    width:10px;
+}
+.line{
+    margin-bottom:25px;
+    margin-top:-8px;
+    color:rgb(131, 129, 129);
+    width:270px;
+    margin-left:15px;
+}
+.main-page{
+    padding-left:80px;
+    padding-top:20px;
+
+}
+.search-bar{
+    margin-bottom:20px;
+    height:30px;
+    
+    
+
+}
+
+
+
+.stories {
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top:10px;
+    width:890px;
+    height:110px;
+   
+}
+
+.story {
+    margin-right: 15px;
+    
+}
+
+
+.story img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(254, 254, 254);
+}
+.search-bar{
+            width: 150px;
+            height:15px;
+            margin-left:34x;
+            margin-bottom:20px;
+            font-weight:500;
+            padding: 10px;
+            padding-left: 40px;/* image space */
+            font-size: 14px;
+            background: url('assets/Logo\ 6.svg') no-repeat 10px center; 
+            background-size: 20px 20px;
+            border: 0px solid rgb(204, 204, 204);
+            border-radius: 12px;
+            background-color: rgb(241, 241, 241);
+            
+}
+
+
+
+.feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    row-gap: 20px;
+    column-gap:20px;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+  
+    
+    align-items:center;
+
+
+}
+.top-right{
+    margin-left:400px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.same{
+    margin:12px;
+    width:50%;
+   
+   
+}
+.add{
+    width:120px;
+    height:40px;
+    border:0px;
+    color:white;
+
+    border-radius:6px;
+    padding-left:30px;
+    background:url("assets/Logo\ 9.svg") no-repeat 20px center;
+    background: linear-gradient(to right,rgb(255, 217, 0),rgb(255, 157, 0), rgb(228, 60, 23),rgb(236, 47, 79));
+}
+.heading1{
+    font-weight:500;
+}
+#story-pfp{
+    border:2px solid white;
+    border-radius:50%;
+    object-fit: cover;
+    margin-left:15px;
+    height:110px;
+
+    
+}
+.plus{
+    width:10px;
+
+
+
+}
